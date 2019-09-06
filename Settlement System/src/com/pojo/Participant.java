@@ -23,6 +23,8 @@ public class Participant {
 		this.funds = funds;
 		this.feeForSettlemet = feeForSettlemet;
 		this.listOfshares = listOfshares;
+		
+		System.out.println("hello updated");
 	}
 
 
