@@ -7,6 +7,7 @@ import com.pojo.Share;
 
 public interface ParticipantDAO {
 
+	////////////////////////////////////////////////////////////////////////////////////////////
 	public List<Share> getAllBalance(int participantId); //existing balance of funds and shares
 	public List<Share> getClientNetValues(int participantId); //netted value of funds and shares
 	public void updateBalance(String ClientID,List<Share> listOfShares);//
