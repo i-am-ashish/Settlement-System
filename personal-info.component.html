@@ -1,0 +1,23 @@
+<div class="full">
+<h3 class="heading">PERSONAL INFORMATION</h3>
+<p-dataView [value]="personalInfos">
+    <ng-template let-client pTemplate="listItem">
+    
+        <div class='parent grid-parent'>
+                    <div class='child1'>
+                        Client ID           :   <br>
+                        Email ID        :   <br>
+                        Mobile No       :   <br>
+                        Address         :   
+                    </div>
+                    <div class='child2'>
+                                 {{client.clientId}}<br>
+                                 {{client.email}}<br>
+                                 {{client.mobile}}<br>
+                                 {{client.Address}}<br>
+                    </div>
+            </div>
+         
+    </ng-template>
+</p-dataView>
+</div>

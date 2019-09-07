@@ -1,0 +1,19 @@
+<div class="full">
+<h2 class="heading">TRANSACTIONS</h2>
+<p-table [value]="Txn" class="data">
+    <ng-template pTemplate="header" >
+        <tr>
+            <th *ngFor="let col of cols">
+                {{col.header}}
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-txn>
+        <tr>
+            <td *ngFor="let col of cols">
+                    {{txn[col.field]}}
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
+</div>

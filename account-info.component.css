@@ -1,0 +1,29 @@
+.full{
+    margin-top: 15px;
+     margin-right: 100px;
+     
+     
+    
+}
+.heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.grid-parent {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    
+    
+}
+.child1{
+    text-align: right;
+}
+.child2{
+    text-align: center;
+    font-weight: bold;
+}
+  
