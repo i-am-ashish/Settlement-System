@@ -1,0 +1,14 @@
+.grid-parent {
+    display: grid;
+    grid-template-columns: 200px 2000px;
+    
+  }
+
+.heading{
+    align-content: center;
+     margin-left: 150px;
+    margin-top: 0px; 
+    color: darkblue;
+    font-size: 20pt;
+} 
+

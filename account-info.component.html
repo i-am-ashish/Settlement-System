@@ -1,0 +1,24 @@
+<div class="full">
+<h3 class="heading">ACCOUNT INFORMATION</h3>
+<p-dataView [value]="accountInfos">
+    <ng-template let-client pTemplate="listItem">
+            <div class='parent grid-parent'>
+                <div class='child1'>
+                        DEMAT Acc No:   <br>
+                        Fund Balance:   <br>
+                        Share Holdings: <br>
+                        Holdings' Value:  
+                </div>
+                <div class='child2'>
+                        {{client.demat}}<br>
+                        {{client.fundBalance}}<br>
+                        {{client.share}}<br>
+                        {{client.holdingValue}}
+                </div>
+            </div>
+        <div class="fields">
+            
+        </div>
+    </ng-template>
+</p-dataView>
+</div>
